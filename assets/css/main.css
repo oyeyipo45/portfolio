@@ -1515,6 +1515,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 20rem;
 		}
 
 		.image.fit {
@@ -1556,6 +1557,7 @@ input, select, textarea {
 		transition: all .25s ease-in-out;
 		display: inline-block;
 		background: #444;
+		color: white;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -1640,30 +1642,7 @@ input, select, textarea {
 				box-shadow: inset 0px 0px 2px 0px #202127;
 			}
 
-		input[type="button"].style3,
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-			background: #2f333b url("images/overlay.png");
-			color: #fff;
-		}
 
-			input[type="button"].style3:hover,
-			input[type="submit"].style3:hover,
-			input[type="reset"].style3:hover,
-			button.style3:hover,
-			.button.style3:hover {
-				background-color: #3f434b;
-			}
-
-			input[type="button"].style3:active,
-			input[type="submit"].style3:active,
-			input[type="reset"].style3:active,
-			button.style3:active,
-			.button.style3:active {
-				background-color: #1f232b;
-			}
 
 /* List */
 
@@ -1693,22 +1672,7 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		ul.style3 {
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.style3 li {
-				border-top: solid 1px #eee;
-				padding: 0.5em 0 0 0;
-				margin: 0.5em 0 0 0;
-			}
-
-				ul.style3 li:first-child {
-					border-top: 0;
-					padding-top: 0;
-					margin-top: 0;
-				}
+	 
 
 	ol {
 		list-style: decimal;
@@ -2211,10 +2175,12 @@ input, select, textarea {
 
 /* Copyright */
 
+
 	#copyright {
 		text-align: center;
 		padding-top: 6em;
 		margin-top: 6em;
+		color: white;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
 	}
 
@@ -2259,7 +2225,7 @@ input, select, textarea {
 				font-size: 1.2rem;
 				border: none;
 				outline: none;
-				background-color: red;
+				background: red;
 				color: white;
 				cursor: pointer;
 				padding: 1.5rem;
@@ -2270,6 +2236,9 @@ input, select, textarea {
 				background-color: #555;
 			  }
 
+			  .footer-list-color{
+				color: white;
+			}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
