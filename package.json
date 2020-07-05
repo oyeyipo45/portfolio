@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "DAMILOLA OYEYIPO PORTFOLIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyeyipo45/portfolio.git"
+  },
+  "author": "Damilola Oyeyipo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyeyipo45/portfolio/issues"
+  },
+  "homepage": "https://github.com/oyeyipo45/portfolio#readme"
+}
