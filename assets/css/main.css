@@ -32,6 +32,7 @@ body {
 
 
 
+
 ol, ul {
 	list-style: none;
 }
@@ -1130,26 +1131,33 @@ input, select, textarea {
 		line-height: 4em;
 	}
 
+
+	:root{
+		--primary-color : #2C6975;
+		--second-color : #e97770;
+		--button-hover : #68b2a0;
+		--button-active: #8cd960;
+	}
 		
 		.button:hover {
-			background-color: #f98780;
+			background-color: var(--button-hover);
 		}
 
 		
 
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: var(--primary-color) url("images/overlay.png");
 			color: #fff;
 		}
 
 			
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: var(--button-hover);
 			}
 
 			
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: var(--button-active);
 			}
 
 		
@@ -1225,7 +1233,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: var(--primary-color) !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1342,14 +1350,16 @@ input, select, textarea {
 				background: url("images/shadow.png");
 			}
 
+		
+
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: var(--primary-color) url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: var(--primary-color) url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -1549,7 +1559,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: var(--primary-color);
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
